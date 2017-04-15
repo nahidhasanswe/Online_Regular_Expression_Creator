@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Regular Expression Creator</title>
+
+    <!-- Custom CSS -->
+    <link href="Style/logo-nav.css" rel="stylesheet">
+    <link href="Style/custom.css" rel="stylesheet">
+    <link href="Style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Style/css/sweetalert2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Style/Footer-with-button-logo.css">
+    <link href="Style/login-register.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="Logo/icon.png">
+    <link href="Content/CheckBoxStyle.css" rel="stylesheet" />
+    <link href="Content/build.css" rel="stylesheet" />
+
+    <style>
+        .text-error {
+            color: #D8000C;
+            background-color: #FFBABA;
+            margin: 4px 0px;
+            vertical-align: middle;
+        }
+
+        .text-error i {
+            margin: 4px 4px;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+        .navbar-header{
+             background-color: white !important;
+        }
+        .container-height{
+            min-height:550px !important;
+            padding-bottom:50px !important;
+        }
+        .container-center {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    </style>
+
+</head>
+
+<body ng-app="myApp" ng-controller="usernameController">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-shadow navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-default navbar-link navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar icon-bar-color"></span>
+                    <span class="icon-bar icon-bar-color"></span>
+                    <span class="icon-bar icon-bar-color"></span>
+                </button>
+                <a class="navbar-brand" href="#/home">
+                    <img src="Logo/icon.png" alt="Regular Expression">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul ng-show="!isLogin" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="" ng-click="register()" class="nav-menu-item">Crate an Account</a>
+                    </li>
+                    <li>
+                        <a href="" ng-click="login()" class="nav-menu-item">Login</a>
+                    </li>
+                </ul>
+                <ul ng-show="isLogin" class="nav navbar-nav navbar-right">
+                    <li><img class="image-circle" src="/{{Image}}"></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hello,{{Name}}<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#/Create
+                                   " class="dropdownmenu">Create RegExp</a></li>
+                            <li><a href="#/MyStore" class="dropdownmenu">My Store</a></li>
+                            <li><a href="#" class="dropdownmenu">Change Password</a></li>
+                            <li><a href="#" class="dropdownmenu">Edit Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="" ng-click="logout()" class="dropdownmenu">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container container-height">
+        
+        <div ng-show="isConfirm && isLogin" ng-controller="usernameController" class="row">
+            <div class="col-sm-12">
+                <div class="alert alert-warning">
+                    <strong>Warning!</strong> Your account is not Confirm via Email. Please confirm your account. If you do not receive the Confirmation mail then simply click the link <a href="" ng-click="resendConfirmMail()" class="alert-link">resend Confirmation Mail</a>.
+                </div>
+            </div>
+        </div>   
+        <data-ng-view></data-ng-view>
+    </div>
+    <!-- /.container -->
+    <!-- Footer start from here -->
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#/home"><img src="logo/icon.png"></a></h2>
+                </div>
+                <div class="col-sm-6">
+                    <p>The website is open for all. Annynomous User can test their Regexp in this website. If any user need to generate regular expression, then the user must registration to this website. This website is only for personal purposes like filed validation.The user can store their generated regular expression and used these regexp for future purposes. I try my best to develop this web application. If you have any suggestion or face any problem Please simply press the Contact us button and write to me</p>
+                    <p><i class="fa fa-map-pin icon-padding"></i> 26/10, Sher Shah Shuri Road, Mohammadpur Town Hall, Dhaka-1207</p>
+                    <p><i class="fa fa-phone icon-padding"></i> Phone (Bangladesh) : +880 1729 440883</p>
+                    <p><i class="fa fa-envelope icon-padding"></i> E-mail : nahidh527@gmail.com</p>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://twitter.com/nahidh527" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/nahidhasanswe" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://plus.google.com/u/0/100932532153825372287" target="_blank" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Regular Expression Creator</p>
+        </div>
+    </footer>
+
+    <!-- Footer End here -->
+    <!-- jQuery -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/js/bootstrap.min.js"></script>
+    <script src="Scripts/js/angular.min.js"></script>
+    <script src="Scripts/js/angular-ui-route.js"></script>
+    <script src="Scripts/js/angular-local-storage.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/authInterceptorService.js"></script>
+    <script src="Scripts/myApp.js"></script>
+    <script src="Scripts/login-register.js"></script>
+    <script src="Scripts/angular-password.min.js"></script>
+    <script src="Scripts/js/sweetalert2.min.js"></script>
+    <script src="Scripts/js/angular-message.min.js"></script>
+    <script src="Scripts/js/dirPagination.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+                $(this).toggleClass('open');
+            },
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+    </script>
+</body>
+
+</html>

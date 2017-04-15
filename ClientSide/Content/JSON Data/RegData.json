@@ -1,0 +1,37 @@
+﻿{
+  "alphabet": {
+    "isAlphabet": false,
+    "atLeastOne": false,
+    "atLeastOneCapital": true,
+    "atLeastOneSmall": true,
+    "category": "All",
+    "customAlphabet": "",
+    "customText": "",
+    "max": 0,
+    "min": 0
+  },
+  "number": {
+    "isNumber": false,
+    "atLeastOne": false,
+    "category": "All",
+    "customNumber": "",
+    "min": 0,
+    "max": 0
+  },
+  "special": {
+    "isSpecial": false,
+    "atLeastOne": false,
+    "category": "All",
+    "customText": "",
+    "min": 0,
+    "max": 0
+  },
+  "separation": {
+    "isSeparation": false,
+    "separationText": ""
+  },
+  "totalLength": {
+    "min": 0,
+    "max": 0
+  }
+}

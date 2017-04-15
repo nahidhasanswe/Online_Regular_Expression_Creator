@@ -1,0 +1,289 @@
+﻿<div class="login" id="loginModal" role="dialog">
+    <div class="login animated">
+        <form ng-submit="Updating(Section,index)">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dissmiss="modal" ng-click="$dismiss()" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Update Regular Expression Requirement</h4>
+                </div>
+                <hr />
+                <div class="modal-body">
+                    <div class="box">
+                        <div class="content">
+                            <div>
+                                <h4><span>Alphabet Section</span></h4>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label>Alpahbet</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionInfo" name="someSwitchOption001" ng-model="Section.alphabet.isAlphabet" type="checkbox" />
+                                            <label for="someSwitchOptionInfo" class="label-info"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>At least one time</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" ng-model="Section.alphabet.atLeastOne" type="checkbox" />
+                                            <label for="someSwitchOptionSuccess" class="label-success"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-show="Section.alphabet.isAlphabet">
+                                    <div class="row" ng-show="Section.alphabet.atLeastOne">
+                                        <div class="col-lg-5">
+                                            <label>At least one Capital</label>
+                                            <div class="material-switch pull-right">
+                                                <input id="someSwitchOption" name="someSwitchOption001" ng-model="Section.alphabet.atLeastOneCapital" type="checkbox" />
+                                                <label for="someSwitchOption" class="label-info"></label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <label>At least one Small</label>
+                                            <div class="material-switch pull-right">
+                                                <input id="someSwitch" name="someSwitchOption001" ng-model="Section.alphabet.atLeastOneSmall" type="checkbox" />
+                                                <label for="someSwitch" class="label-success"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group" style="margin-bottom:7px; margin-top:7px;">
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-success radio-inline">
+                                                    <input type="radio" id="inlineRadio10" value="All" name="radio" ng-model="Section.alphabet.category">
+                                                    <label for="inlineRadio10"> All Alpahbet </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-primary radio-inline">
+                                                    <input type="radio" id="inlineRadio20" value="Capital" name="radio" ng-model="Section.alphabet.category">
+                                                    <label for="inlineRadio20"> Capital Only </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-info radio-inline">
+                                                    <input type="radio" id="inlineRadio30" value="Small" name="radio" ng-model="Section.alphabet.category">
+                                                    <label for="inlineRadio30"> Small Only </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-danger radio-inline">
+                                                    <input type="radio" id="inlineRadio40" value="CustomAlphabet" name="radio" ng-model="Section.alphabet.category">
+                                                    <label for="inlineRadio40"> Custom Alphabet </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-warning radio-inline">
+                                                    <input type="radio" id="inlineRadio50" value="CustomText" name="radio" ng-model="Section.alphabet.category">
+                                                    <label for="inlineRadio50"> Custom Text </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div ng-show="Section.alphabet.category=='CustomAlphabet'" class="form-group">
+                                                <label for="customAlphabet">Custom Alphabet</label>
+                                                <input type="text" id="customAlphabet" ng-model="Section.Alphabet.customAlphabet" class="form-custom" placeholder="Each letter separate by comma(,)" />
+                                            </div>
+                                            <div ng-show="Section.alphabet.category=='CustomText'" class="form-group">
+                                                <label for="customText">Custom Text</label>
+                                                <input type="text" id="customText" ng-model="Section.Alphabet.customText" class="form-custom" placeholder="Enter your Custom Text" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-hide="Section.alphabet.atLeastOne" style="margin-top:8px !important">
+                                        <div class="col-lg-12">
+                                            <div class="form-inline">
+                                                <label>Length </label>
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Min: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.alphabet.min" id="exampleInputName2" placeholder="Min Value">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail2">Max: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.alphabet.max" id="exampleInputEmail2" placeholder="Max Value">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr />
+                            <div>
+                                <h4><span>Numbers Section</span></h4>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label>Number</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionInf" name="someSwitchOption002" ng-model="Section.number.isNumber" type="checkbox" />
+                                            <label for="someSwitchOptionInf" class="label-info"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>At least one time</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionSucces" name="someSwitchOption003" ng-model="Section.number.atLeastOne" type="checkbox" />
+                                            <label for="someSwitchOptionSucces" class="label-success"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-show="Section.number.isNumber">
+                                    <div class="row">
+                                        <div class="form-group" style="margin-bottom:7px; margin-top:7px;">
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-primary radio-inline">
+                                                    <input type="radio" id="inlineRadio6" value="All" name="radioInline1" ng-model="Section.number.category">
+                                                    <label for="inlineRadio6"> All Numbers </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-info radio-inline">
+                                                    <input type="radio" id="inlineRadio7" value="Custom" name="radioInline1" ng-model="Section.number.category">
+                                                    <label for="inlineRadio7"> Custom Only </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-show="Section.number.category=='Custom'">
+                                        <div class="col-lg-7">
+                                            <div class="form-group">
+                                                <label for="customNumber">Custom Number</label>
+                                                <input type="text" id="customNumber" ng-model="Section.number.customNumber" class="form-custom" placeholder="Each Number separate by comma(,)" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-hide="Section.number.atLeastOne" style="margin-top:8px !important">
+                                        <div class="col-lg-12">
+                                            <div class="form-inline">
+                                                <label>Length </label>
+                                                <div class="form-group">
+                                                    <label for="exampleInput2">Min: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.number.min" id="exampleInput2" placeholder="Min Value">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInput2">Max: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.number.max" id="exampleInput2" placeholder="Max Value">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr />
+                            <div>
+                                <h4><span>Special Characters Section</span></h4>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <label>Special Character</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionIn" name="someSwitchOption004" ng-model="Section.special.isSpecial" type="checkbox" />
+                                            <label for="someSwitchOptionIn" class="label-info"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>At least one time</label>
+                                        <div class="material-switch pull-right">
+                                            <input id="someSwitchOptionSucce" name="someSwitchOption005" ng-model="Section.special.atLeastOne" type="checkbox" />
+                                            <label for="someSwitchOptionSucce" class="label-success"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-show="Section.special.isSpecial">
+                                    <div class="row">
+                                        <div class="form-group" style="margin-bottom:7px; margin-top:7px;">
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-primary radio-inline">
+                                                    <input type="radio" id="inlineRadio8" value="All" name="radioIn" ng-model="Section.special.category">
+                                                    <label for="inlineRadio8"> All Numbers </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="radio radio-info radio-inline">
+                                                    <input type="radio" id="inlineRadio9" value="custom" name="radioIn" ng-model="Section.special.category">
+                                                    <label for="inlineRadio9"> Custom Only </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-show="Section.special.category=='custom'">
+                                        <div class="col-lg-7">
+                                            <div class="form-group">
+                                                <label for="customSpecial">Custom Special Characters</label>
+                                                <input type="text" id="customSpecial" ng-model="Section.special.customText" class="form-custom" placeholder="Each Character separate by comma(,)" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-hide="Section.special.atLeastOne" style="margin-top:8px !important">
+                                        <div class="col-lg-12">
+                                            <div class="form-inline">
+                                                <label>Length </label>
+                                                <div class="form-group">
+                                                    <label for="example">Min: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.special.min" id="example" placeholder="Min Value">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail22">Max: </label>
+                                                    <input type="number" class="form-control" ng-model="Section.special.max" id="exampleInputEmail22" placeholder="Max Value">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4><span>Separation Section</span></h4>
+                                <div class="row">
+                                    <div class="form-inline">
+                                        <div class="col-lg-4">
+                                            <label>Add Separation</label>
+                                            <div class="material-switch pull-right">
+                                                <input id="some" name="someSwitchOption099" ng-model="Section.separation.isSeparation" type="checkbox" />
+                                                <label for="some" class="label-info"></label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8" ng-show="Section.separation.isSeparation">
+                                            <div class="form-inline">
+                                                <div class="form-group">
+                                                    <label for="separationTextBox">Separation Text</label>
+                                                    <input class="form-control" ng-model="Section.separation.separationText" type="text" id="separationTextBox" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4><span>Total Length</span></h4>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-inline">
+                                            <div class="form-group">
+                                                <label for="mainimum">Minimum: </label>
+                                                <input type="number" id="minimum" ng-model="Section.totalLength.min" class="form-control" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="maximum">Maximum: </label>
+                                                <input type="number" id="maximum" class="form-control" ng-model="Section.totalLength.max" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="modal-footer">
+                    <div class="pull-right">
+                        <input type="button" class="btn btn-default" ng-click="$dismiss()" value="Cancel" />
+                        <input type="submit" class="btn btn-info" value="Update" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

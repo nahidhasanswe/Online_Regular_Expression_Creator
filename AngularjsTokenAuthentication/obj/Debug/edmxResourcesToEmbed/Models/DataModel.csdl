@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MyDbContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="RegStore" EntityType="MyDbModel.RegStore" />
+    <EntitySet Name="UserProfile" EntityType="MyDbModel.UserProfile" />
+    <AssociationSet Name="FK_RegStore_UserProfile" Association="MyDbModel.FK_RegStore_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="RegStore" EntitySet="RegStore" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="RegStore">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="RegExp" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="UserProfile" Relationship="MyDbModel.FK_RegStore_UserProfile" FromRole="RegStore" ToRole="UserProfile" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="RegStore" Relationship="MyDbModel.FK_RegStore_UserProfile" FromRole="UserProfile" ToRole="RegStore" />
+  </EntityType>
+  <Association Name="FK_RegStore_UserProfile">
+    <End Type="MyDbModel.UserProfile" Role="UserProfile" Multiplicity="0..1" />
+    <End Type="MyDbModel.RegStore" Role="RegStore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="RegStore">
+        <PropertyRef Name="Email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

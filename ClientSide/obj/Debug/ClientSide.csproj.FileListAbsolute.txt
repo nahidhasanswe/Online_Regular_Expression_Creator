@@ -1,0 +1,66 @@
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\ApplicationInsights.config
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\csc.exe
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\vbc.exe
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\VBCSCompiler.exe
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.dll.config
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.pdb
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Web.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.WindowsServer.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.ApplicationInsights.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Web.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.WindowsServer.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.ApplicationInsights.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.dll
+c:\users\nahid hasan\documents\visual studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.pdb
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\ApplicationInsights.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\csc.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\vbc.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.dll.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\ClientSide.pdb
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Web.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.Web.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.csprojResolveAssemblyReference.cache
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.pdb
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\ClientSide\obj\Debug\ClientSide.csprojResolveAssemblyReference.cache

@@ -1,0 +1,93 @@
+<div>
+    <div class="login" id="loginModal" style="max-width:300px">
+        <div class="login animated">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Login with</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="box">
+                        <div class="content">
+                            <div class="social">
+                                <a class="circle github" href="/auth/github">
+                                    <i class="fa fa-github fa-fw"></i>
+                                </a>
+                                <a id="google_login" class="circle google" href="/auth/google_oauth2">
+                                    <i class="fa fa-google-plus fa-fw"></i>
+                                </a>
+                                <a id="facebook_login" class="circle facebook" href="/auth/facebook">
+                                    <i class="fa fa-facebook fa-fw"></i>
+                                </a>
+                            </div>
+                            <div class="division">
+                                <div class="line l"></div>
+                                <span>or</span>
+                                <div class="line r"></div>
+                            </div>
+                            <div class="form loginBox">
+                                <form name="logindata" ng-submit="Login(logindata.$invalid)" ng-controller="login2Controller" novalidate>
+                                    <div ng-show="message!=''">
+                                        <div class="alert alert-danger">{{message}}</div>
+                                    </div>
+                                    <input name="email" ng-model="loginData.userName" class="form-control" type="text" placeholder="Email" required>
+                                    <div ng-messages="logindata.email.$error" ng-if="logindata.$submitted" class="text-error">
+                                        <div ng-message="required"><i class="fa fa-times-circle"></i>Email is required</div>
+                                    </div>
+                                    <input name="password" ng-model="loginData.password" class="form-control" type="password" placeholder="Password" required>
+                                    <div ng-messages="logindata.password.$error" ng-if="logindata.$submitted" class="text-error">
+                                        <div ng-message="required"><i class="fa fa-times-circle"></i>Password is required</div>
+                                    </div>
+                                    <input class="btn btn-default btn-login" ng-disabled="isProcessing" type="submit" value="{{LoginBtnText}}">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="content registerBox" style="display:none;">
+                            <div class="form">
+                                <form name="regidata" ng-submit="Registration(regidata.$invalid)" ng-controller="login2Controller" novalidate>
+                                    <div ng-show="regMessage!=''">
+                                        <div class="alert alert-danger">
+                                            {{regMessage}}
+                                        </div>
+                                    </div>
+                                    <div class="form registerBox">
+                                        <input name="email" ng-model="account.Email" class="form-control" type="text" placeholder="Email" ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/" ng-required="true">
+                                        <div ng-messages="regidata.email.$error" ng-if="regidata.$submitted" class="text-error">
+                                            <div ng-message="required"><i class="fa fa-times-circle"></i>Email is required</div>
+                                            <div ng-message="pattern"><i class="fa fa-times-circle"></i>Email is not valid</div>
+                                        </div>
+                                        <input name="password" ng-model="account.Password" class="form-control" type="password" placeholder="Password" ng-pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}/" required>
+                                        <div ng-messages="regidata.password.$error" ng-if="regidata.$submitted" class="text-error">
+                                            <div ng-message="required"><i class="fa fa-times-circle"></i>Password is required</div>
+                                            <div ng-message="pattern"><i class="fa fa-times-circle"></i>Password must be one small one capital letter one special character one digit and at least 8 character</div>
+                                        </div>
+                                        <input name="cPassword" ng-model="account.ConfirmPassword" class="form-control" type="password" placeholder="Repeat Password" match-password="password" required>
+                                        <div ng-messages="regidata.cPassword.$error" ng-if="regidata.$submitted" class="text-error">
+                                            <div ng-message="required"><i class="fa fa-times-circle"></i>Confirm Password is required</div>
+                                            <div ng-message="passwordMatch"><i class="fa fa-times-circle"></i>Password is not macth</div>
+                                        </div>
+                                        <input class="btn btn-default btn-register" ng-disabled="isProcessing" type="submit" value="{{buttonText}}">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="forgot login-footer">
+                        <span>
+                            Looking to
+                            <a href="javascript: showRegisterForm();">create an account</a>
+                        </span>
+                    </div>
+                    <div class="forgot register-footer" style="display:none">
+                        <span>Already have an account?</span>
+                        <a href="javascript: showLoginForm();">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,186 @@
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\ApplicationInsights.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\csc.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\vbc.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.dll.config
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.pdb
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Antlr3.Runtime.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.SqlServer.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Web.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Newtonsoft.Json.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Owin.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Net.Http.Formatting.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Cors.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Helpers.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Cors.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Owin.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.WebHost.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Mvc.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Optimization.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Razor.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\WebGrease.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Web.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Cors.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Newtonsoft.Json.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Net.Http.Formatting.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Helpers.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.WebHost.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Mvc.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Optimization.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Razor.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Antlr3.Runtime.pdb
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.SqlServer.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Owin.xml
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\AngularjsTokenAuthentication.dll
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\AngularjsTokenAuthentication.pdb
+C:\Users\Nahid Hasan\Desktop\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\Server Side.csprojResolveAssemblyReference.cache
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\ApplicationInsights.config
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\csc.exe
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\vbc.exe
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.dll.config
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\AngularjsTokenAuthentication.pdb
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Antlr3.Runtime.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.SqlServer.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Web.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Newtonsoft.Json.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Owin.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Net.Http.Formatting.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Cors.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Helpers.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Cors.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Owin.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.WebHost.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Mvc.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Optimization.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Razor.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\WebGrease.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.Web.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Cors.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Newtonsoft.Json.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Net.Http.Formatting.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Helpers.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.WebHost.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Mvc.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Optimization.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Razor.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Antlr3.Runtime.pdb
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\EntityFramework.SqlServer.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\bin\System.Web.Http.Owin.xml
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\AngularjsTokenAuthentication.dll
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\AngularjsTokenAuthentication.pdb
+C:\Users\Nahid Hasan\Documents\Visual Studio 2015\Projects\AngularjsTokenAuthentication\AngularjsTokenAuthentication\obj\Debug\Server Side.csprojResolveAssemblyReference.cache

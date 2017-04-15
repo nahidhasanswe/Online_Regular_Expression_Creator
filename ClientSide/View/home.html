@@ -1,0 +1,22 @@
+﻿<div class="container-center" ng-init="QueryString()">
+    <div class="col-sm-6">
+        <form name="testForm" ng-submit="Testing(testForm.$invalid)" role="form" novalidate>
+            <div class="form-group">
+                <label>Your Regular Expression</label>
+                <input name="RegExp" ng-model="RegTest.Exp" type="text" class="form-control" placeholder="Enter your regular expression here" required />
+                <div ng-messages="testForm.RegExp.$error" ng-if="testForm.$submitted" class="text-error">
+                    <div ng-message="required"><i class="fa fa-times-circle"></i>Expression is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Your Text</label>
+                <input name="uText" ng-model="RegTest.text" type="text" class="form-control" placeholder="Enter your text here" required />
+                <div ng-messages="testForm.uText.$error" ng-if="testForm.$submitted" class="text-error">
+                    <div ng-message="required"><i class="fa fa-times-circle"></i>Text is required</div>
+                </div>
+            </div>
+            <button type="submit" ng-disabled="isProcessing" class="btn btn-success">{{testBtn}}</button>
+        </form>
+    </div>
+</div>
+

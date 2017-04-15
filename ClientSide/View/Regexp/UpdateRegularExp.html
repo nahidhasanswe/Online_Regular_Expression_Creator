@@ -1,0 +1,293 @@
+﻿<div class="row" ng-init="StartLoading()">
+    <div class="col-lg-12">
+        <h4>Update Your Regular Expression</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <button class="btn btn-primary" ng-click="OpenModal()"><i class="fa fa-plus"></i> Add Requirement</button>
+    </div>
+    <br />
+    <div class="row">
+        <div ng-if="RegList.length" class="col-lg-12" style="margin-left:13px">
+            <h4>Requirement List:</h4>
+        </div>
+    </div>
+    <form>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-12" style="margin-bottom:10px !important" ng-repeat="item in RegList">
+                        <div class="
+                             " style="padding:5px !important" ;>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <label class="headerText">Requirement {{$index+1}}</label>
+                                    <div class="pull-right">
+                                        <button class="btn btn-primary btn-sm" ng-click="Update($index)"><i class="fa fa-edit"></i></button>
+                                        <button class="btn btn-danger btn-sm" ng-click="Remove($index)"><i class="fa fa-close"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-inline">
+                                    <div class="col-lg-5">
+                                        <div class="form-group">
+                                            <label for="alphabet" class="font-bold">Alphabet:</label>
+                                            <label id="alphabet" ng-show="item.alphabet.isAlphabet" class="font-normal"> Yes</label>
+                                            <label id="alphabet" ng-hide="item.alphabet.isAlphabet" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4" ng-show="item.alphabet.isAlphabet">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">At Least One:</label>
+                                            <label id="alph" ng-if="item.alphabet.atLeastOne" class="font-normal"> Yes</label>
+                                            <label id="alph" ng-if="!item.alphabet.atLeastOne" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div ng-show="item.alphabet.isAlphabet">
+                                <div class="row" ng-if="item.alphabet.atLeastOne">
+                                    <div class="form-inline">
+                                        <div class="col-lg-5">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">At Least One Capital:</label>
+                                                <label ng-if="item.alphabet.atLeastOneCapital" id="alph" class="font-normal"> Yes</label>
+                                                <label ng-if="!item.alphabet.atLeastOneCapital" id="alph" class="font-normal"> No</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">At Least One Small:</label>
+                                                <label id="alph" ng-if="item.alphabet.atLeastOneSmall" class="font-normal"> Yes</label>
+                                                <label id="alph" ng-if="!item.alphabet.atLeastOneSmall" class="font-normal"> No</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-inline">
+                                        <div class="col-lg-5">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Category: </label>
+                                                <label id="alph" ng-show="item.alphabet.category=='All'" class="font-normal">All Alphabet</label>
+                                                <label id="alph" ng-show="item.alphabet.category=='Capital'" class="font-normal">Only Capital</label>
+                                                <label id="alph" ng-show="item.alphabet.category=='Small'" class="font-normal">Only Small</label>
+                                                <label id="alph" ng-show="item.alphabet.category=='CustomAlphabet'" class="font-normal">Custom Alphabet</label>
+                                                <label id="alph" ng-show="item.alphabet.category=='CustomText'" class="font-normal">Custom Text</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="form-group" ng-if="item.alphabet.category=='CustomAlphabet'">
+                                                <label for="alph" class="font-bold">Custom Alpabet: </label>
+                                                <label id="alph" class="font-normal">{{item.alphabet.customAlphabet}}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5" ng-if="item.alphabet.category=='CustomText'">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Custom Text:</label>
+                                                <label id="alph" class="font-normal">{{item.alphabet.customText}}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" ng-if="!item.alphabet.atLeastOne">
+                                    <div class="form-inline">
+                                        <div class="col-lg-2">
+                                            <div class="form-group">
+                                                <label class="font-bold">Length:</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Minimum: </label>
+                                                <label id="alph" class="font-normal">{{item.alphabet.min}}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Maximum: </label>
+                                                <label id="alph" class="font-normal">{{item.alphabet.max}}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row" style="margin-top:7px !important;">
+                                <div class="form-inline">
+                                    <div class="col-lg-5">
+                                        <div class="form-group">
+                                            <label for="alphabet" class="font-bold">Number:</label>
+                                            <label id="alphabet" ng-if="item.number.isNumber" class="font-normal"> Yes</label>
+                                            <label id="alphabet" ng-if="!item.number.isNumber" class="font-normal"> No</label>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5" ng-show="item.number.isNumber">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">At Least One Number:</label>
+                                            <label id="alph" ng-if="item.number.atLeastOne" class="font-normal"> Yes</label>
+                                            <label id="alph" ng-if="!item.number.atLeastOne" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div ng-show="item.number.isNumber">
+                                <div class="row">
+                                    <div class="form-inline">
+                                        <div class="col-lg-5">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Category: </label>
+                                                <label id="alph" ng-if="item.number.category=='All'" class="font-normal"> All Numbers</label>
+                                                <label id="alph" ng-if="item.number.category=='Custom'" class="font-normal">Custom Number</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5" ng-if="item.number.category=='Custom'">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Custom Numbers: </label>
+                                                <label id="alph" class="font-normal">1,2,3,4</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" ng-if="!item.number.atLeastOne">
+                                    <div class="form-inline">
+                                        <div class="col-lg-2">
+                                            <div class="form-group">
+                                                <label class="font-bold">Length:</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Minimum: </label>
+                                                <label id="alph" class="font-normal">{{item.number.min}}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Maximum: </label>
+                                                <label id="alph" class="font-normal">{{item.number.max}}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row" style="margin-top:7px !important;">
+                                <div class="form-inline">
+                                    <div class="col-lg-5">
+                                        <div class="form-group">
+                                            <label for="alphabet" class="font-bold">Special Character:</label>
+                                            <label id="alphabet" ng-if="item.special.isSpecial" class="font-normal"> Yes</label>
+                                            <label id="alphabet" ng-if="!item.special.isSpecial" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7" ng-if="item.special.isSpecial">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">At Least One Speciala Character:</label>
+                                            <label id="alph" ng-if="item.special.atLeastOne" class="font-normal"> Yes</label>
+                                            <label id="alph" ng-if="!item.special.atLeastOne" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div ng-if="item.special.isSpecial">
+                                <div class="row">
+                                    <div class="form-inline">
+                                        <div class="col-lg-5">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Category: </label>
+                                                <label id="alph" ng-if="item.special.category=='All'" class="font-normal">All Special Chars</label>
+                                                <label id="alph" ng-if="item.special.category=='custom'" class="font-normal">Custom Chars</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5" ng-if="item.special.category=='custom'">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Custom Characters: </label>
+                                                <label id="alph" class="font-normal">{{item.special.customText}}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" ng-if="!item.special.atLeastOne">
+                                    <div class="form-inline">
+                                        <div class="col-lg-2">
+                                            <div class="form-group">
+                                                <label class="font-bold">Length:</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Minimum: </label>
+                                                <label id="alph" class="font-normal">{{item.special.min}}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label for="alph" class="font-bold">Maximum: </label>
+                                                <label id="alph" class="font-normal">{{item.special.max}}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row" style="margin-top:7px !important;">
+                                <div class="form-inline">
+                                    <div class="col-lg-5">
+                                        <div class="form-group">
+                                            <label for="alphabet" class="font-bold">Separation:</label>
+                                            <label id="alphabet" ng-if="item.separation.isSeparation" class="font-normal"> Yes</label>
+                                            <label id="alphabet" ng-if="!item.separation.isSeparation" class="font-normal"> No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7" ng-if="item.separation.isSeparation">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">Separation Text:</label>
+                                            <label id="alph" class="font-normal"> {{item.separation.separationText}}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="form-inline">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label class="font-bold">Total Length:</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">Minimum: </label>
+                                            <label id="alph" class="font-normal">{{item.totalLength.min}}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="alph" class="font-bold">Maximum: </label>
+                                            <label id="alph" class="font-normal">{{item.totalLength.max}}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" ng-if="!RegList.length">
+                <div style="margin:0 auto !important; text-align:center; display:block !important; align-content:center !important">
+                    <h4>There is no requirement</h4>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-lg-12">
+            <button class="btn btn-success" ng-click="GenerateReqularExpression()" ng-if="RegList.length" style="margin: 0 auto !important; display:block !important ">Generate RegExp</button>
+        </div>
+    </div>
+</div>
